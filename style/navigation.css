@@ -1,0 +1,43 @@
+.sidebar{
+    top:56px;
+    left:11px;
+    bottom:0px;
+    width:62px;
+    position:fixed;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sidebaricon{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor:pointer;
+    border-radius:5px;
+    width:100%;
+    height: 60px;
+}
+
+.sidebaricon:hover{
+    background-color: rgb(228, 228, 228);
+}
+
+.sidebaricon figcaption{
+    font-size:10px;
+    margin-top:5px;
+}
+
+.home,
+.music,
+.sub,
+.library{
+    height:24px;
+    width:24px;
+}
+
+.empty{
+    flex:1;
+}

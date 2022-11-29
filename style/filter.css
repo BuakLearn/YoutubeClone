@@ -1,0 +1,32 @@
+.filter{
+    font-size:16px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    height:43px;
+    margin-left: 65px;
+    z-index: 98;
+    position:fixed;
+    background-color: white;
+    width: 100%;
+    top:56px;
+}
+
+.filter-type{
+    background-color: rgba(0,0,0,0.05);
+    width:max-content;
+    padding: 2px 12px;
+    border-radius: 18%;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.filter-type-active{
+    background-color: black;
+    color: white;
+    width:max-content;
+    padding: 2px 12px;
+    border-radius: 20%;
+    margin-left: 5px;
+    cursor: pointer;
+}
